@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    background: hsla(0, 0%, 23%, 0.5);
+    backdrop-filter: blur(4px);
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+  }
+.logo img{
+    float: left;
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.nav-items{
+    float:right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.nav-items li{
+    display: inline-block;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid whitesmoke;
+    transition: 0.4s ease;
+}
+.nav-items li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main{
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5));
+    background-position: center;
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    height: 100%;
+    font-size: 20px;
+}
+.main h5{
+    color: #fff;
+    font-size: 50px;
+    align-items: center;
+    padding: 15px;
+}
+.nav-items li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.members{
+    align-items: center;
+}
+.members div{
+    display: inline-block;
+    background-image: linear-gradient(rgba(77, 77, 77, 0.5),rgba(77, 77, 77, 0.5));
+    background-position: center;
+    width: 30%;
+    margin: 5px;
+    height: 30vh;
+    padding: 10px;
+}
+.members div center h4{
+    font-size: 30px;
+}
